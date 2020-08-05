@@ -46,7 +46,14 @@
       .geometric-consistency {
         background-color: rgb(240,240,240);
       }
+      .citation .description {
+        font-family: "Courier",monospace;
+        font-size: 16px;
+        white-space: pre;
+        text-align: left;
+      }
       .additional-links {
+        background-color: #f4f4f4;
       }
     </style>
   </head>
@@ -298,6 +305,35 @@
         </div>
       </div>
 
+      <!-- Citation -->
+      <div class="content-block citation">
+        <div class="row">
+          <div class="col">
+            <p class="title">
+              <h3>Citation</h3>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p class="description">
+                      @inproceedings{brualla2020nerf,
+                          author = {Martin-Brualla, Ricardo
+                                    and Radwan, Noha
+                                    and Sajjadi, Mehdi S. M.
+                                    and Barron, Jonathan T.
+                                    and Dosovitskiy, Alexey
+                                    and Duckworth, Daniel},
+                          title = {NeRF in the Wild: Neural Radiance Fields for
+                                   Unconstrained Photo Collections},
+                          booktitle = {arXiv},
+                          year={2020}
+                      }
+            </p>
+          </div>
+        </div>
+      </div>
+
       <!-- Links -->
       <div class="content-block additional-links">
         <div class="row">
@@ -319,6 +355,7 @@
         </div>
       </div>
     </div>
+
     <!-- Bootstrap bits -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
